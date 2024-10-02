@@ -8,6 +8,7 @@ const Best = { //You can also use, b, B, best, BestJS.
     createP: function(text){
         let p = document.createElement('p')
         p.innerText = text
+        return p
     }
 }
 
