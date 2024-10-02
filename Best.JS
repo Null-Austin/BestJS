@@ -5,11 +5,9 @@ const Best = { //You can also use, b, B, best, BestJS.
     appChild: function(eletoappendto,eletoappend) {
         eletoappendto.appendChild(eletoappend)
     },
-    createP: function(text,style){
-        p = document.createElement('p')
+    createP: function(text){
+        let p = document.createElement('p')
         p.innerText = text
-        p.style = style //dont set it to {color:blue;} but instead color:blue;
-        return(p)
     }
 }
 
