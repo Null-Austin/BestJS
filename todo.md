@@ -1,0 +1,4 @@
+ - [ ] appChild() append child short.
+ - [X] simple query selector.
+ - [ ] make a really good libary.
+ - [ ] To get help, from the community.
