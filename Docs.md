@@ -35,3 +35,16 @@ Its a easy way to make a p, with 2 params, text, and style
 ```javascript
 p = createP('Hello, World!','color:blue;background-color:00008B')
 ```
+
+#### addclass
+fast to add a class
+##### Example:
+```javascript
+b.addclass(element,class)
+```
+#### removeclass
+fast to <s>add</s> remove a class
+##### Example:
+```javascript
+b.removeclass(element,class)
+```
