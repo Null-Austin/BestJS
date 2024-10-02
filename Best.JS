@@ -1,3 +1,4 @@
+console.log('This is running BestJS')
 const Best = { //You can also use, b, B, best, BestJS.
     query: function(selector) {
         return document.querySelector(selector)
@@ -9,6 +10,12 @@ const Best = { //You can also use, b, B, best, BestJS.
         let p = document.createElement('p')
         p.innerText = text
         return p
+    },
+    addclass: function(element,classname) {
+        element.classList.add(classname)
+    },
+    removeclass: function(element,classname) {
+        element.classList.remove(classname)
     }
 }
 
