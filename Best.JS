@@ -1,5 +1,5 @@
 
-bjsversion = 1.0
+bjsversion = 1.1
 
 console.log('Howdy from BestJS, ' + bjsversion)
 const Best = { //You can also use, b, B, best, BestJS.
