@@ -1,8 +1,6 @@
-
-bjsversion = 1.1
-
 console.log('Howdy from BestJS, ' + bjsversion)
 const Best = { //You can also use, b, B, best, BestJS.
+    version: 1.1,
     query: function(selector) {
         return document.querySelector(selector)
     },
@@ -25,7 +23,7 @@ const Best = { //You can also use, b, B, best, BestJS.
         console.log(message)
     },
     testbestjs: function(){
-        alert('Well, if your wondering, well its working. (' + bjsversion + ')')
+        alert('Well, if your wondering, well its working. (' + Best.version + ')')
     },
     iframeC: function(url){ //will anyone notice, my childhood?
         ifunny = document.createElement('iframe')
