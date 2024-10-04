@@ -15,10 +15,10 @@ const Best = { //You can also use, b, B, best, BestJS.
     removeclass: function(element,classname) {
         element.classList.remove(classname)
     },
-    createEle: function(type,html,style) {
+    createEle: function(type,html,stylecode) {
         ele = document.createElement(type);
-        ele.innerHtml = html
-        ele.style = style
+        ele.innerHTML = html
+        ele.style = stylecode
         return ele
     },
     clog: function(message){
@@ -28,7 +28,7 @@ const Best = { //You can also use, b, B, best, BestJS.
         alert('Well, if your wondering, well its working. (' + bjsversion + ')')
     },
     iframeC: function(url){ //will anyone notice, my childhood?
-        ifunny = createElement('iframe')
+        ifunny = document.createElement('iframe')
         ifunny.src = url
         return ifunny
     }
