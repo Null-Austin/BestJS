@@ -26,8 +26,11 @@ const Best = { //You can also use, b, B, best, BestJS.
     },
     testbestjs: function(){
         alert('Well, if your wondering, well its working. (' + bjsversion + ')')
-    }
+    },
+    
 }
+
+//i just realized something, you cant set b/B/best/BestJS to anything, cause, i already made it a const, imagine...
 
 const b = Best //not what you should code like, but its easy, thats what BestJS is for...
 const B = b
