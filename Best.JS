@@ -27,7 +27,11 @@ const Best = { //You can also use, b, B, best, BestJS.
     testbestjs: function(){
         alert('Well, if your wondering, well its working. (' + bjsversion + ')')
     },
-    
+    iframeC: function(url){ //will anyone notice, my childhood?
+        ifunny = createElement('iframe')
+        ifunny.src = url
+        return ifunny
+    }
 }
 
 //i just realized something, you cant set b/B/best/BestJS to anything, cause, i already made it a const, imagine...
