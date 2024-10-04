@@ -1,4 +1,7 @@
-console.log('This is running BestJS')
+
+bjsversion = 1.0
+
+console.log('Howdy from BestJS, ' + bjsversion)
 const Best = { //You can also use, b, B, best, BestJS.
     query: function(selector) {
         return document.querySelector(selector)
@@ -17,6 +20,12 @@ const Best = { //You can also use, b, B, best, BestJS.
         ele.innerHtml = html
         ele.style = style
         return ele
+    },
+    clog: function(message){
+        console.log(message)
+    },
+    testbestjs: function(){
+        alert('Well, if your wondering, well its working. (' + bjsversion + ')')
     }
 }
 
