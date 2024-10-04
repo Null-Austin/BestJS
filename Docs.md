@@ -29,13 +29,6 @@ b.appChild(body,p)
 ```
 1st param, is what it should append to. and 2nd, is what it should append
 
-#### createP
-Its a easy way to make a p, with 2 params, text, and style
-##### Example:
-```javascript
-p = createP('Hello, World!','color:blue;background-color:00008B')
-```
-
 #### addclass
 fast to add a class
 ##### Example:
@@ -47,4 +40,24 @@ fast to <s>add</s> remove a class
 ##### Example:
 ```javascript
 b.removeclass(element,class)
+```
+#### clog
+Want to log, without console.log?
+##### Example:
+```javascript
+b.clog(message)
+```
+
+#### testbestjs
+alerts you that its working, with version #
+##### Example:
+```javascript
+b.testbestjs()
+```
+
+#### iframeC
+make a iframe, with src.
+##### Example:
+```javascript
+b.iframeC(url)
 ```

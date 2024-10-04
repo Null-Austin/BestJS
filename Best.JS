@@ -37,6 +37,6 @@ const Best = { //You can also use, b, B, best, BestJS.
 //i just realized something, you cant set b/B/best/BestJS to anything, cause, i already made it a const, imagine...
 
 const b = Best //not what you should code like, but its easy, thats what BestJS is for...
-const B = b
+const B = b 
 const best = b
 const BestJS = b // best way to run code.
