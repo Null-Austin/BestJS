@@ -1,4 +1,3 @@
-console.log('Howdy from BestJS, ' + bjsversion)
 const Best = { //You can also use, b, B, best, BestJS.
     version: 1.1,
     query: function(selector) {
@@ -38,3 +37,5 @@ const b = Best //not what you should code like, but its easy, thats what BestJS 
 const B = b 
 const best = b
 const BestJS = b // best way to run code.
+
+console.log('Howdy from BestJS, ' + Best.version)
