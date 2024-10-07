@@ -1,5 +1,5 @@
 const Best = { //You can also use, b, B, best, BestJS.
-    version: 1.1,
+    version: 1.2,
     query: function(selector) {
         return document.querySelector(selector)
     },
