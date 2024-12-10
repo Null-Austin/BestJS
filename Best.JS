@@ -1,4 +1,4 @@
-const Best = { //You can also use, b, B, best, BestJS.
+const Best = { //You can also use, b, B, best, BestJS. A lot of the code, i did not make myself, that i edited.
     version: 1.2,
     query: function(selector) {
         return document.querySelector(selector)
@@ -12,7 +12,7 @@ const Best = { //You can also use, b, B, best, BestJS.
     removeclass: function(element,classname) {
         element.classList.remove(classname)
     },
-    createEle: function(type,html,stylecode) {
+    ce: function(type,html,stylecode) {
         ele = document.createElement(type);
         ele.innerHTML = html
         ele.style = stylecode
@@ -28,6 +28,34 @@ const Best = { //You can also use, b, B, best, BestJS.
         ifunny = document.createElement('iframe')
         ifunny.src = url
         return ifunny
+    },
+    randomstr: function(length){ //credits to this guy: https://stackoverflow.com/a/1349426/25018387
+        let result = '';
+        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        const charactersLength = characters.length;
+        let counter = 0;
+        while (counter < length) {
+          result += characters.charAt(Math.floor(Math.random() * charactersLength));
+          counter += 1;
+        }
+        return result;
+    },
+    randomint: function(min,max,rounded){ //credits to the hard working souls here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+        rounded = rounded || false
+        rst = Math.random() * (max - min) + min;
+        if (rounded == false){
+            return rst
+        }
+        return(Math.round(rst))
+    },
+    getdate(){ //https://stackoverflow.com/a/4929629/25018387
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+
+        today = mm + '-' + dd + '-' + yyyy;
+        return today;
     }
 }
 
