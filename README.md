@@ -1,3 +1,10 @@
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+
 ### TOC  
 [Welcome](#welcome)  
 [Docs](#docs)  
