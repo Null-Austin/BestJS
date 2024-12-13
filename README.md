@@ -1,4 +1,11 @@
-# Welcome
+### TOC  
+[Welcome](#welcome)  
+[Docs](#docs)  
+
+
+
+
+# Welcome <a id='welcome'></a>
 Welcome! to my wonderful JS libary, lets stop my yappin, and start my code?...
 ## How to use
 If your wondering how to use this awesome libary! You have a few methods but one:
@@ -8,7 +15,7 @@ If your wondering how to use this awesome libary! You have a few methods but one
 ```
 
 
-## Docs
+# Docs <a id='docs'></a>
 ## Functions
 ### `Best.query(selector)`
 * Returns the first element that matches the specified `selector`.
