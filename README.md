@@ -1,14 +1,10 @@
 # Welcome
 Welcome! to my wonderful JS libary, lets stop my yappin, and start my code?...
 ## How to use
-If your wondering how to use this awesome libary! You have a few methods such as:
+If your wondering how to use this awesome libary! You have a few methods but one:
 #### Script tag
 ```html
 <script src="https://cdn.jsdelivr.net/gh/Null-Austin/BestJS/Best.JS"></script>
-```
-#### import (ES6+)
-```javascript
-import 'https://cdn.jsdelivr.net/gh/Null-Austin/BestJS/Best.JS';
 ```
 
 
