@@ -6,7 +6,7 @@ Commercial Use
 You are permitted to use, modify, and distribute this software for personal, academic, and commercial purposes, as long as the following conditions are met:
 
 Attribution
-You must provide appropriate credit to the original author, including a link to the original repository or source, in any distribution or derivative work. You must also indicate if changes were made to the original software.
+You may have a link to the original repository, or author.
 
 Restrictions
 No Selling
