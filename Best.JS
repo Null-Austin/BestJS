@@ -48,7 +48,7 @@ const Best = { //You can also use, b, B, best, BestJS. A lot of the code, i did 
         }
         return(Math.round(rst))
     },
-    getdate(){ //https://stackoverflow.com/a/4929629/25018387
+    getdate: function(){ //https://stackoverflow.com/a/4929629/25018387
         var today = new Date();
         var dd = String(today.getDate()).padStart(2, '0');
         var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
@@ -62,8 +62,8 @@ const Best = { //You can also use, b, B, best, BestJS. A lot of the code, i did 
 //i just realized something, you cant set b/B/best/BestJS to anything, cause, i already made it a const, imagine...
 
 const b = Best //not what you should code like, but its easy, thats what BestJS is for...
-const B = b 
-const best = b
-const BestJS = b // best way to run code.
+let B = b
+let best = b
+let BestJS = b // best way to run code.
 
 console.log('Howdy from BestJS, ' + Best.version)
