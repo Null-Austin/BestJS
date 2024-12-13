@@ -1,4 +1,4 @@
-CC+ License (Commercial Plus License)
+CC- License (Commercial Minus License)
 Version 1.0
 
 Permissions
@@ -25,4 +25,4 @@ Termination
 Any violation of the terms and conditions of this license will result in the termination of the permissions granted under this license.
 
 Notice
-“CC+ License (Commercial Plus)” is a custom license created by Austin Moore. It is not affiliated with Creative Commons or any other licensing organizations.
+“CC- License (Commercial Minus)” is a custom license created by Austin Moore. It is not affiliated with Creative Commons or any other licensing organizations.
